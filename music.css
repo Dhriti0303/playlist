@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  place-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(51, 51, 52);
+}
+main{
+display:flex;
+text-align: center;
+justify-content: center;
+}
+#container{
+    background:rgb(26, 26, 62);
+    width:400px;
+    height:560px;
+    border:black 1px solid;
+    
+}
+#head{
+    height:50px;
+    width:380px;
+    background: rgb(67, 67, 138);
+    margin:auto;
+}
+p{
+    color:white;
+    font-size:1.5rem;
+    padding:0.7rem;
+    place-content:center;
+}
+#line1{
+    height:3px;
+    width:100px;
+    background: orange;
+    position:absolute;
+    margin-top:1.15rem;
+    margin-left:10px;
+}
+#line2{
+    height:3px;
+    width:100px;
+    background: orange;
+    position:absolute;
+    margin-top:1.9rem;
+    margin-left:10px;
+}
+#line3{
+    height:3px;
+    width:100px;
+    background: orange;
+    position: absolute;
+    margin-top:-3.5rem;
+    margin-left:270px;
+}
+#line4{
+    height:3px;
+    width:100px;
+    background: orange;
+    position:absolute;
+    margin-top:-2.8rem;
+    margin-left:270px;
+}
+img{
+    border:double pink 2px;
+    margin-top:1.5rem;
+}
+#btn{
+    display:flex;
+    padding:1rem;
+    gap:1.6rem;
+    padding-left:5.8rem;
+}
+#pause:hover,#play:hover,#left:hover,#right:hover{
+    border:solid 4px white;
+}
+#pause{
+    box-sizing: border-box;
+    height:30px;
+    width:30px;
+    border-style:solid;
+    border-width:15px 0px 15px 28px;
+    border-color:transparent transparent transparent white;
+}
+#play{
+    box-sizing: border-box;
+    height:30px;
+    width:30px;
+    border-style:solid;
+    border-color:transparent white transparent white;
+    border-width: 0px 10px 0px 10px;
+}
+#left{
+    box-sizing: border-box;
+    height:30px;
+    width:30px;
+    border-style:solid;
+    border-color:transparent white transparent white;
+    border-width: 15px 30px 15px 1px;
+}
+#right{
+    box-sizing: border-box;
+    height:30px;
+    width:30px;
+    border-style:solid;
+    border-color:transparent white transparent white;
+    border-width: 15px 1px 15px 30px;
+}
+#container1{
+    background:rgb(26, 26, 62);
+    width:410px;
+    height:490px;
+    padding:0.1px;
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#body{
+    height:400px;
+    width:400px;
+    margin-top:0.2rem;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+#song1{
+    display:flex;
+    height:50px;
+    width:380px;
+    background-color: rgb(51, 51, 52) ;
+    margin-left:1rem;
+    margin-top:1.2rem;
+    font-size:1.2rem;
+    color:white;
+    place-content:center;
+}
+#song1:hover{
+    background-color: pink;
+    color:black;
+    font-size:2rem;
+}
+#song2,#song3,#song4,#song5,#song6,#song7,#song8,#song9,#song10,#song11{
+    height:50px;
+    width:380px;
+    display:flex;
+    background-color: rgb(51, 51, 52) ;
+    margin-left:1rem;
+    margin-top:0.2rem;
+    font-size:1.2rem;
+    color:white;
+    place-content:center;
+}
+#song2:hover,#song3:hover,#song4:hover,#song5:hover,#song6:hover:hover,#song7:hover,#song8:hover,#song9:hover,#song10:hover,#song11:hover{
+    background-color: pink;
+    color:black;
+    font-size:2rem;
+}
+#title{
+    position:relative;
+    margin-right:auto;
+    font-size:1.2rem;
+    padding-top:0.7rem;
+    padding-left:0.4rem;
+}
+#singer{
+    position:relative;
+    font-size:0.9rem;
+    margin:auto;
+}
+#time{
+    position:relative;
+    margin-left:auto;
+    padding-top:0.9rem;
+}
+#nope1,#nope2,#nope3,#nope4,#nope5,#nope6,#nope7,#nope8,#nope9,#nope10,#nope11{
+    margin-top:0.8rem;
+    position:relative;
+    background-color: transparent;
+}
+#nope1:hover,#nope2:hover,#nope3:hover,#nope4:hover,#nope5:hover,#nope6:hover,#nope7:hover,#nope8:hover,#nope9:hover,#nope10:hover,#nope11:hover{
+    background-color: rgb(0, 0, 0);
+}
+#reset{
+    color:white;
+    font-size:2rem;
+    display:none;
+}
+#current{
+    margin-top:0.2rem;
+    width:390px;
+    height:50px;
+    font-size:1.5rem;
+    color:white;
+    display:none;
+}
