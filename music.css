@@ -121,6 +121,7 @@ img{
     height:400px;
     width:400px;
     margin-top:0.2rem;
+    overflow:scroll;
     scrollbar-width: none;
 }
 #song1{
